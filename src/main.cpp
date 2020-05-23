@@ -3,11 +3,13 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <cstdlib>
+#include <omp.h>
 // #include <mpi.h>
 
 void badUsage() {
     std::cerr << "Usage: transcoder <valid DNA secuence>" << std::endl;
-    exit(EXIT_FAILURE);
+    exit(1);
 }
 
 int main(int argc, char *argv[]) {
@@ -21,8 +23,16 @@ int main(int argc, char *argv[]) {
     std::string dna;
     std::getline(secuence, dna);
 
+    double ts = omp_get_wtime();
     transcode(dna);
-    std::cout << dna << std::endl;
+    double tf = omp_get_wtime();
 
-    return EXIT_SUCCESS;
+    std::cout << "Time in Seconds: " << tf - ts << std::endl;
+    
+    std::ofstream outputFile;
+    outputFile.open("outputDna.txt");
+    outputFile << dna;
+    outputFile.close();
+
+    return 0;
 }
