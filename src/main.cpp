@@ -2,6 +2,8 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
+// #include <mpi.h>
 
 void badUsage() {
     std::cerr << "Usage: transcoder <valid DNA secuence>" << std::endl;
@@ -9,13 +11,18 @@ void badUsage() {
 }
 
 int main(int argc, char *argv[]) {
+    
     if (argc != 2) {
         badUsage();
     }
 
-    std::string secuence = argv[1];
-    transcode(secuence);
-    std::cout << secuence << std::endl;
+    std::ifstream secuence(argv[1]);
+
+    std::string dna;
+    std::getline(secuence, dna);
+
+    transcode(dna);
+    std::cout << dna << std::endl;
 
     return EXIT_SUCCESS;
 }
