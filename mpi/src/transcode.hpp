@@ -2,4 +2,4 @@
 
 #include <string>
 
-char *transcode(std::string secuence, const int rank, const int nRanks);
+char *transcode(std::string &secuence, const int rank, const int nRanks);
