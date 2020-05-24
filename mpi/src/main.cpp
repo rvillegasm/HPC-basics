@@ -35,13 +35,15 @@ int main(int argc, char *argv[]) {
     if (rank == 0) ts = omp_get_wtime();
     char *rna = transcode(dna, rank, nRanks);
     if (rank == 0) tf = omp_get_wtime();
-
+    
+    MPI_Barrier(MPI_COMM_WORLD);
+    
     if (rank == 0) {
         std::cout << "Time in Seconds: " << tf - ts << std::endl;
-
+	rna[dna.length()] = '\0';
         std::ofstream outputFile;
         outputFile.open("outputDna.txt");
-        outputFile << dna;
+        outputFile << rna << std::endl;
         outputFile.close();
     }
 
