@@ -17,5 +17,5 @@ queue: bin/transcoder
 	echo 'cd $$PBS_O_WORKDIR ; ./bin/transcoder ../datasets/dna_dataset.txt' | qsub -l nodes=1:flat -N transcoder  
 
 clean:
-	rm -rf bin/ *.o *.gch transcoder
+	rm -rf bin/ *.o *.gch transcoder transcoder.*
 
