@@ -129,5 +129,3 @@ el uso de esta meotdologia para implementar el algoritmo.
 - Implementacion MPI: Rafael Villegas.
 - Ejecucion en cluster: Felipe Cortes.
 - Analisis de resultados: Felipe Cortes y Rafael Villegas.
-
-![SIMD](/images/graphs/Multiple Threads Single Data.png)
