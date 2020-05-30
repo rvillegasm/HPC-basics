@@ -24,6 +24,8 @@ De esta manera se ha decidido divirir el problema en potencia de dos para los hi
 
 Para este proyecto se cuenta con un nodo [Intel® Xeon Phi™ Processor 7210](https://ark.intel.com/content/www/us/en/ark/products/94033/intel-xeon-phi-processor-7210-16gb-1-30-ghz-64-core.html) el cual cuenta con 68 núcleos, la potencia de 2 más cercana el 64, el cual debería ser la cantidad óptima de hilos. De esta manera, cada una de las tareas para el archivo de 100 millones de registros tomaría 1'562.500 registros aproximadamente.
 
+### Gráfica
+
 ![SIMD](SIMD.png)
 
 ## Algoritmo paralelo para procesos múltiples
@@ -74,3 +76,7 @@ Por lo tanto, se ha decidido que la cantidad de partes en la que se dividirá la
 
 Para este proyecto se cuenta con máximo 4 nodos [Intel® Xeon Phi™ Processor 7210](https://ark.intel.com/content/www/us/en/ark/products/94033/intel-xeon-phi-processor-7210-16gb-1-30-ghz-64-core.html) los cuales cuentan con 68 núcleos, que es la disponibilidad del clúster de Intel puesto a disposición en este caso.
 Se espera que según el tamaño del programa a ejecutar y los recursos (hilos y nodos) se evidencien los resultados de tal manera que a medida que el programa se vuelva mas complejo, sea necesario una implementación paralelizada. Sin embargo, dado el caso contrario, sea mas útil una implementación secuencial. Lo cual es el objetivo principal del proyecto en cuestión.
+
+### Gráfica
+
+![MIMD](MIMD.png)
