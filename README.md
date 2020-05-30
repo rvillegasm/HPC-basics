@@ -119,3 +119,11 @@ ninguno de los dataset, pero puede que con un dataset lo suficientemente
 grande, que agote la memoria de una sola maquina o que haga que abordarlo
 desde un solo nodo tome demasiado tiempo, se justifique o hasta se recomiende
 el uso de esta meotdologia para implementar el algoritmo.
+
+## Distribucion del trabajo
+
+- Implementacion serial: Rafael Villegas.
+- Implementacion OpenMP: Felipe Cortes.
+- Implementacion MPI: Rafael Villegas.
+- Ejecucion en cluster: Felipe Cortes.
+- Analisis de resultados: Felipe Cortes y Rafael Villegas.
