@@ -24,7 +24,7 @@ De esta manera se ha decidido divirir el problema en potencia de dos para los hi
 
 Para este proyecto se cuenta con un nodo [Intel® Xeon Phi™ Processor 7210](https://ark.intel.com/content/www/us/en/ark/products/94033/intel-xeon-phi-processor-7210-16gb-1-30-ghz-64-core.html) el cual cuenta con 68 núcleos, la potencia de 2 más cercana el 64, el cual debería ser la cantidad óptima de hilos. De esta manera, cada una de las tareas para el archivo de 100 millones de registros tomaría 1'562.500 registros aproximadamente.
 
-![Speedup](../images/graphs/Multiple Threads Single Data.png.png)
+![SIMD](../images/graphs/Multiple Threads Single Data.png)
 
 ## Algoritmo paralelo para procesos múltiples
 
