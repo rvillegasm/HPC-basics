@@ -1,6 +1,6 @@
 # Proeycto 4 - HPC
 
-GDrive con definición del problema: https://drive.google.com/drive/folders/1ZNzmoH6BH2K68mM_ZgBes5wpGWnF9_u0?usp=sharing
+# GDrive con definición del problema: https://drive.google.com/drive/folders/1ZNzmoH6BH2K68mM_ZgBes5wpGWnF9_u0?usp=sharing
 
 El proyecto consiste en la comparacion de rendimiento entre tres formas
 diferentes de abordar el problema de transformar una cadena de ADN en una
