@@ -129,3 +129,8 @@ el uso de esta meotdologia para implementar el algoritmo.
 - Implementacion MPI: Rafael Villegas.
 - Ejecucion en cluster: Felipe Cortes.
 - Analisis de resultados: Felipe Cortes y Rafael Villegas.
+
+### Video sustentacion Felipe Cortes:
+https://www.youtube.com/watch?v=Vu4oi0GJR9Q
+
+### Video sustentacion Rafael Villegas:
