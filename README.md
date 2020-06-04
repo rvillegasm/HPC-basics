@@ -138,7 +138,7 @@ $ make queue
 - Analisis de resultados: Felipe Cortes y Rafael Villegas.
 
 ### Video sustentacion Felipe Cortes:
-https://www.youtube.com/watch?v=Vu4oi0GJR9Q
+https://youtu.be/lHHGc971AWM
 
 ### Video sustentacion Rafael Villegas:
 https://web.microsoftstream.com/video/67854f06-068b-4e81-9353-7a5bbd39edde
