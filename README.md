@@ -122,6 +122,13 @@ grande, que agote la memoria de una sola maquina o que haga que abordarlo
 desde un solo nodo tome demasiado tiempo, se justifique o hasta se recomiende
 el uso de esta meotdologia para implementar el algoritmo.
 
+## Comandos para correr los programas
+```bash
+$ make clean
+$ make
+$ make queue
+```
+
 ## Distribucion del trabajo
 
 - Implementacion serial: Rafael Villegas.
@@ -134,3 +141,4 @@ el uso de esta meotdologia para implementar el algoritmo.
 https://www.youtube.com/watch?v=Vu4oi0GJR9Q
 
 ### Video sustentacion Rafael Villegas:
+https://web.microsoftstream.com/video/67854f06-068b-4e81-9353-7a5bbd39edde
